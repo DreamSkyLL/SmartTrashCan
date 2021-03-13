@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="esp32"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET">
+				<Option output="/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/dreamsky/Downloads/bin2.0/include"/>
+					<Add directory="/Users/dreamsky/Downloads/bin2.0/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/config"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/app_trace"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/app_update"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/asio"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/bootloader_support"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/bt"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/coap"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/console"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/driver"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp-tls"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp32"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_adc_cal"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_event"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_http_client"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_http_server"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_https_ota"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_ringbuf"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/ethernet"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/expat"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/fatfs"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/freemodbus"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/freertos"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/heap"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/idf_test"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/jsmn"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/json"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/libsodium"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/log"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/lwip"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/mbedtls"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/mdns"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/micro-ecc"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/mqtt"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/newlib"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/nghttp"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/nvs_flash"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/openssl"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/protobuf-c"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/protocomm"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/pthread"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/sdmmc"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/smartconfig_ack"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/soc"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/spi_flash"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/spiffs"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/tcp_transport"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/tcpip_adapter"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/ulp"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/vfs"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/wear_levelling"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/wifi_provisioning"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/wpa_supplicant"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/xtensa-debug-module"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp-face"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp32-camera"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/fb_gfx"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/cores/esp32"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/variants/doitESP32devkitV1"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/AsyncUDP/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/AzureIoT/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/BLE/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/BluetoothSerial/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/DNSServer/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/EEPROM/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/ESP32/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/ESPmDNS/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/FFat/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/FS/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdate/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/NetBIOS/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/Preferences/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/SD/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/Update/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src"/>
+					<Add directory="/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include/c++/5.2.0"/>
+					<Add directory="/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include/c++/5.2.0/xtensa-esp32-elf"/>
+					<Add directory="/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/5.2.0/include"/>
+					<Add directory="/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/5.2.0/include-fixed"/>
+					<Add directory="/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include"/>
+					<Add directory="/.platformio/packages/tool-unity"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET/fast">
+				<Option output="/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/dreamsky/Downloads/bin2.0/include"/>
+					<Add directory="/Users/dreamsky/Downloads/bin2.0/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/config"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/app_trace"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/app_update"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/asio"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/bootloader_support"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/bt"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/coap"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/console"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/driver"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp-tls"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp32"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_adc_cal"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_event"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_http_client"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_http_server"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_https_ota"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_ringbuf"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/ethernet"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/expat"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/fatfs"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/freemodbus"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/freertos"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/heap"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/idf_test"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/jsmn"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/json"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/libsodium"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/log"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/lwip"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/mbedtls"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/mdns"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/micro-ecc"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/mqtt"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/newlib"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/nghttp"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/nvs_flash"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/openssl"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/protobuf-c"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/protocomm"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/pthread"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/sdmmc"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/smartconfig_ack"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/soc"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/spi_flash"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/spiffs"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/tcp_transport"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/tcpip_adapter"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/ulp"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/vfs"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/wear_levelling"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/wifi_provisioning"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/wpa_supplicant"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/xtensa-debug-module"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp-face"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp32-camera"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/fb_gfx"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/cores/esp32"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/variants/doitESP32devkitV1"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/AsyncUDP/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/AzureIoT/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/BLE/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/BluetoothSerial/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/DNSServer/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/EEPROM/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/ESP32/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/ESPmDNS/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/FFat/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/FS/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdate/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/NetBIOS/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/Preferences/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/SD/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/Update/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src"/>
+					<Add directory="/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src"/>
+					<Add directory="/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include/c++/5.2.0"/>
+					<Add directory="/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include/c++/5.2.0/xtensa-esp32-elf"/>
+					<Add directory="/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/5.2.0/include"/>
+					<Add directory="/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/5.2.0/include-fixed"/>
+					<Add directory="/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include"/>
+					<Add directory="/.platformio/packages/tool-unity"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Debug">
+				<Option working_dir="/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Makefile&quot;  VERBOSE=1 Debug"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Production">
+				<Option working_dir="/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Makefile&quot;  VERBOSE=1 Production"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dreamsky/Downloads/bin2.0/cmake-build-esp32doit-devkit-v1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/ServoESP32/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/ServoESP32/.travis.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/ServoESP32/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/ServoESP32/examples/01-SimpleServo/01-SimpleServo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/ServoESP32/examples/02-ServoPotentiometer/02-ServoPotentiometer.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/ServoESP32/examples/03-MultipleServos/03-MultipleServos.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/ServoESP32/examples/04-SimpleServoAngles/04-SimpleServoAngles.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/ServoESP32/library.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/ServoESP32/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/ServoESP32/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/ServoESP32/src/Servo.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/ServoESP32/src/Servo.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/CMakeLists.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/component.mk">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/conversions/esp_jpg_decode.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/conversions/include/esp_jpg_decode.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/conversions/include/img_converters.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/conversions/jpge.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/conversions/private_include/jpge.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/conversions/private_include/yuv.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/conversions/to_bmp.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/conversions/to_jpg.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/conversions/yuv.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/driver/camera.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/driver/include/esp_camera.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/driver/include/sensor.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/driver/private_include/camera_common.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/driver/private_include/sccb.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/driver/private_include/twi.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/driver/private_include/xclk.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/driver/sccb.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/driver/sensor.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/driver/twi.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/driver/xclk.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/examples/take_picture.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/library.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/sensors/ov2640.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/sensors/ov3660.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/sensors/ov5640.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/sensors/ov7725.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/sensors/private_include/ov2640.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/sensors/private_include/ov2640_regs.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/sensors/private_include/ov2640_settings.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/sensors/private_include/ov3660.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/sensors/private_include/ov3660_regs.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/sensors/private_include/ov3660_settings.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/sensors/private_include/ov5640.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/sensors/private_include/ov5640_regs.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/sensors/private_include/ov5640_settings.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/sensors/private_include/ov7725.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/.pio/libdeps/esp32doit-devkit-v1/esp32-camera/sensors/private_include/ov7725_regs.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/src/VL53L0X.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/src/main.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/dreamsky/Downloads/bin2.0/CMakeListsPrivate.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
